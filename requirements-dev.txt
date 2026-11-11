@@ -1,0 +1,17 @@
+# Everything for local development: the app, the research notebooks and the tests.
+-r requirements.txt
+
+pytest==9.2.0
+
+# used by the notebooks in research/
+langchain-classic==1.0.8
+langchain_community==0.4.2
+langchain-openai==1.7.3
+langchain-groq==1.1.3
+langchain-chroma==1.1.0
+langchain-text-splitters==1.1.3
+langchainhub==0.1.21
+duckduckgo-search==5.3.1b1
+tavily-python
+pypdf==6.21.4
+wikipedia==1.4.0
